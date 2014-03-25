@@ -1,0 +1,22 @@
+{
+  "name": "oyster-api",
+  "version": "0.0.0",
+  "description": "HTTP API for Oyster",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oyster",
+    "travel"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^3.5.0",
+    "oyster": "^0.1.2",
+    "basic-auth": "0.0.1",
+    "poweredby": "^0.1.0"
+  }
+}
