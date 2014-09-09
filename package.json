@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "oyster",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "mocha": "^1.18.2",
     "request": "^2.34.0"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
