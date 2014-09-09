@@ -2,15 +2,14 @@
 var http         = require('http');
 var express      = require('express');
 var poweredBy    = require('poweredby');
+var morgan       = require('morgan');
 var errorHandler = require('./lib/errorHandler');
 var authOyster   = require('./lib/authOyster');
 var app          = express();
 
 app.set('port', process.env.PORT || 3000);
 app.use(poweredBy('Slow Crawly Things'));
-app.use(express.logger('dev'));
-app.use(app.router);
-app.use(errorHandler);
+app.use(morgan('dev'));
 
 app.get('/', function(req, res, next) {
   res.redirect('https://github.com/bencevans/oyster-api');
@@ -30,6 +29,8 @@ app.get('/balance', authOyster, function(req, res) {
     });
   });
 });
+
+app.use(errorHandler);
 
 http.createServer(app).listen(app.get('port'), function() {
   console.log('Oyster API listening on port ' + app.get('port'));
