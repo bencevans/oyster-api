@@ -6,7 +6,7 @@
 
 ## Root Endpoint
 
-I ([@bencevans](https://github.com/bencevans) run a version of this at `oyster-api.bensbit.co.uk`. You're welcome to use this but I provide no warranty as to uptime or security.
+I ([@bencevans](https://github.com/bencevans)) run a version of this at `oyster-api.bensbit.co.uk`. You're welcome to use this but I provide no warranty as to uptime or security.
 
 ## Authentication
 
