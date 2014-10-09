@@ -64,6 +64,17 @@ HTTP/1.1 200
 }
 ```
 
+# Running Locally
+
+    git clone https://github.com/bencevans/oyster-api.git
+    cd oyster-api
+    npm install
+    npm start
+
+# Deployment
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # Licence
 
 MIT
