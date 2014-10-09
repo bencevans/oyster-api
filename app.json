@@ -1,0 +1,7 @@
+{
+  "name": "oyster-api",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/bencevans/oyster-api",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "TFL", "oyster", "travel", "api"]
+}
