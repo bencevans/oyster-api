@@ -1,4 +1,4 @@
-# oyster-api
+# oyster-api [![Codacy Badge](https://www.codacy.com/project/badge/21d98d9476d54e57a00d3f0fdfa78f6e)](https://www.codacy.com)
 
 **Unofficial** API to check Oyster balance (hopefully more including travel history soon).
 
