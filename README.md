@@ -1,18 +1,14 @@
 # oyster-api [![Codacy Badge](https://www.codacy.com/project/badge/21d98d9476d54e57a00d3f0fdfa78f6e)](https://www.codacy.com)
 
-**Unofficial** API to check Oyster balance (hopefully more including travel history soon).
+**Unofficial** API to check Oyster balance.
 
 # API Docs
-
-## Root Endpoint
-
-I ([@bencevans](https://github.com/bencevans)) run a version of this at `https://oyster-scrape-api.herokuapp.com`. You're welcome to use this but I provide no warranty as to uptime or security.
 
 ## Authentication
 
 Oyster API uses HTTP Basic authentication using you oyster username and password.
 
-    $ curl http://oyster-api.bensbit.co.uk/balance -u username:password
+    $ curl http://localhost:3000/balance -u username:password
 
 **Invalid Authentication Response**
 
